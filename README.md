@@ -4,11 +4,12 @@ LED PWM Controller for camping van, PIC12F1572
 
 For use with 12V lead battery, but 24v is also possible if voltages divisiors is adapted.
 
-* 50W power, 15V max 
+* 50W power, 15V max (or more if you change voltage divisor) 
 * UART controlled 
+* High frequency PWM (26khz), no audible noise and no flickering
 * No Off current (potentiometer Mechanical switch) 
 * Low level battery monitornig ( Cutoff<=10.25V, 7%PWM Max<=11V, Normal>=11.5V) 
-* Simple Connector 
+* Simple Connector, 6.35 terminals
 * OverCurrent protection
 
 ## Hardware : 
@@ -25,7 +26,7 @@ STL 3D printed Housing provided in HW folder
 
 ## UART Command : 
 
-UART HW is 2 pin 2mm JST connector with RX only and GND
+UART HW is 2 pin 2mm JST connector with RX only and GND, 
 3V3, 9600B, 8n1
 
 ### Command is :
