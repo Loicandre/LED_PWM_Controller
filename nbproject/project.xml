@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>BUS_PWM_Controller</name>
+            <name>LED_PWM_Controller</name>
             <creation-uuid>db50f735-46f8-4eaa-b624-7ffa79e1e9ec</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
