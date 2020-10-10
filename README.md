@@ -12,7 +12,16 @@ For use with 12V lead battery, but 24v is also possible if voltages divisiors is
 * Simple Connector, 6.35 terminals
 * OverCurrent protection
 
+<img src="https://github.com/Loicandre/LED_PWM_Controller/blob/main/DOC/IMG_20200929_100800.jpg" width="575"> 
+
+<p float="left"> 
+  <img src="https://github.com/Loicandre/LED_PWM_Controller/blob/main/DOC/IMG_20200929_101517.jpg" width="220">
+  <img src="https://github.com/Loicandre/LED_PWM_Controller/blob/main/DOC/IMG_20200929_100811.jpg" width="350"> 
+</p>
+
 ## Hardware : 
+
+Schematics [here...](https://github.com/Loicandre/LED_PWM_Controller/blob/main/HW/Schematic%20Prints.PDF)
 
 Main parts are :
 * PIC12F1572-E/MS Microcontroller (MSOP version) 
@@ -25,6 +34,8 @@ Main parts are :
 STL 3D printed Housing provided in HW folder
 
 ## UART Command : 
+
+UART has priority. To return to the potentiometer control, stop sending UARTs frames and turn the potentiometer a bit.
 
 UART HW is 2 pin 2mm JST connector with RX only and GND, 
 3V3, 9600B, 8n1
