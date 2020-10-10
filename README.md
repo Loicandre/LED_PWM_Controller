@@ -42,9 +42,10 @@ UART HW is 2 pin 2mm JST connector with RX only and GND,
 
 ### Command is :
 | B1 | B2 | B3 | B4 | B5 | CHK |
+|:----|:----|:----|:----|:----|:----:|
 1. B1 = 0xCA
 2. B2 = 0xFE
-3. B3 = ADDR or BrdCast
+3. B3 = ADDR (currently define by preprocessor) or BrdCast (0xFF)
 4. B4 = LedMSB
 5. B5 = LedLSB 
 6. CHK=B1+B2+B3+B4+B5 (8bit)
